@@ -1,25 +1,33 @@
-//import java.*;
+
 import java.util.Scanner;
 
-public class CarNumber {
+public class CarSlot {
 	public static void main(String[] args){
 	
 	Scanner input = new Scanner(System.in);
 	
-	char [ ] slots = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1};
+	 String FreeSlot = {"O","O","O","O","O","O","O","O","O","O","O","O","O","O","O","O","O","O","O","O"};
 	
-	char FreeSlot = '1';
+	  for (int count = 0; count <= FreeSlot.length; count++) {
 	
-	  for (int count = 0; count < 20; count++) {
-	
-	  System.out.println("Choose  slot from (1 - 20)" + FreeSlot + " ");
+	  System.out.println("Choose  slot from (1 - 20)" + ":");
 	  int number = input.nextInt();
-	  
-	  int index = number -1;
-	  
-	     
-	
-	}
 
+	  int index = number - 1;
+	  
+	  if (FreeSlot.length == 1 ) {
+	   //   printTheSlot(slots); 
+	     System.out.println("Slot Updated"  + " ");
+	      continue;
+	      }
+	      else {
+            FreeSlot[count] = FreeSlot;
+    }
+      if (FreeSlot  == 1) {
+          slot = FreeSlot;
+      } else {
+          FreeSlot = FreeSlot;
+      }
+	     }
   }
 }	
