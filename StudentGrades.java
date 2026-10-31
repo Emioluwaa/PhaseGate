@@ -28,7 +28,7 @@ public class StudentGrades {
         }
   
         System.out.println("\n==================================================");
-        System.out.println("                              SUBJECT SUMMARY                                         "); 
+        System.out.println("                          SUBJECT SUMMARY                                         "); 
         System.out.println("===================================================");
 
         int passingMark = 50;
